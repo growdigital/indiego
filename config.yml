@@ -1,3 +1,4 @@
 baseURL: "https://www.indiego.org.uk/"
 languageCode: "en-gb"
+theme: "Indiego"
 title: "Indiego"

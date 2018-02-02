@@ -29,7 +29,7 @@ Thumbs.db
 
 # The Build Directory #
 #######################
-dist
+public
 
 # Logs
 logs
