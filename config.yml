@@ -1,4 +1,18 @@
 baseURL: "https://www.indiego.org.uk/"
 languageCode: "en-gb"
-theme: "Indiego"
 title: "Indiego"
+theme: "Indiego"
+
+params:
+  subtitle: "Socially aware Hugo starter theme"
+  author: "Jake Rayson"
+  publisher: "Grow Digital"
+  publisherLogo: "assets/images/logo-thumbnail.png"
+  publisherLogoWidth: 220
+  publisherLogoHeight: 220
+  email: "hi@indiego.org.uk"
+  twitter: "IndiegoHugo"
+  googleplus: "112354208488638707199"
+  facebook: "1214743245336093"
+  fbapp_id: "206433049934562"
+  tel: "+447398474064"  
