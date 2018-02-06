@@ -4,7 +4,7 @@ title: "Indiego"
 theme: "Indiego"
 
 params:
-  description: "Socially-aware Hugo starter theme with Modular CSS"
+  description: "Socially-aware Hugo starter theme: Publish Own Site, Syndicate Elsewhere"
   author: "Jake Rayson"
   publisher: "Grow Digital"
   publisherLogo: "assets/images/logo-thumbnail.png"
