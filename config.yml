@@ -3,6 +3,7 @@ languageCode: "en-GB"
 title: "Indiego"
 theme: "Indiego"
 sectionPagesMenu: "main"
+pluralizeListTitles: false
 
 params:
   description: "Socially-aware Hugo starter theme: Publish Own Site, Syndicate Elsewhere"

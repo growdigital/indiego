@@ -26,6 +26,7 @@ ehthumbs.db
 Thumbs.db
 *.sublime-workspace
 *.sublime-project
+*.indiego.code-workspace
 
 # The Build Directory #
 #######################
