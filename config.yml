@@ -4,6 +4,7 @@ title: "Indiego"
 theme: "Indiego"
 sectionPagesMenu: "main"
 pluralizeListTitles: false
+copyright: "This work is dual-licensed under MIT & GPL v3"
 
 params:
   description: "Socially-aware Hugo starter theme"
@@ -12,9 +13,9 @@ params:
   publisherLogo: "assets/images/logo-thumbnail.png"
   publisherLogoWidth: 220
   publisherLogoHeight: 220
-  email: "hi@indiego.org.uk"
   twitter: "IndiegoHugo"
-  googleplus: "112354208488638707199"
   facebook: "1214743245336093"
+  email: "hi@indiego.org.uk"
+  googleplus: "112354208488638707199"
   fbapp_id: "206433049934562"
   tel: "+447398474064"  
