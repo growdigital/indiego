@@ -6,7 +6,7 @@ sectionPagesMenu: "main"
 pluralizeListTitles: false
 
 params:
-  description: "Socially-aware Hugo starter theme: Publish Own Site, Syndicate Elsewhere"
+  description: "Socially-aware Hugo starter theme"
   author: "Jake Rayson"
   publisher: "Grow Digital"
   publisherLogo: "assets/images/logo-thumbnail.png"
