@@ -1,3 +1,7 @@
+---
+title: "Status"
+---
+
 # Status page
 
 This is the Status page.

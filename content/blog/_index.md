@@ -1,3 +1,7 @@
-# Blog page
+---
+title: "Blog"
+---
 
-This is the blog page.
+# Blog page innit
+
+This is the blog page, awright?
