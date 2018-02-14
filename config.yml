@@ -7,10 +7,10 @@ pluralizeListTitles: false
 copyright: "This work is dual-licensed under MIT & GPL v3"
 
 params:
-  description: "Socially-aware Hugo starter theme"
+  description: "Socially aware Hugo starter theme"
   author: "Jake Rayson"
   publisher: "Grow Digital"
-  publisherLogo: "assets/images/logo-thumbnail.png"
+  publisherLogo: "images/logo-thumbnail.png"
   publisherLogoWidth: 220
   publisherLogoHeight: 220
   twitter: "IndiegoHugo"
