@@ -1,6 +1,6 @@
 ---
 menu: "main"
-title: "Home"
+title: "Indiego home"
 ---
 
 # Home page
