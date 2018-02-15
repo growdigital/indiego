@@ -7,7 +7,7 @@ pluralizeListTitles: false
 copyright: "This work is dual-licensed under MIT & GPL v3"
 
 params:
-  description: "Socially aware Hugo starter theme"
+  description: "Socially aware theme for Hugo CMS"
   author: "Jake Rayson"
   publisher: "Indiego"
   publisherLogo: "images/logo-thumbnail.png"
