@@ -7,7 +7,7 @@ title: "Indiego home"
 
 **Currently [version 0.0.1](https://github.com/growdigital/indiego/)** – don’t use it yet! 
 
-Indiego is a starter theme for [Hugo](https://gohugo.io/) <abbr title="Content Management System">CMS</abbr>
+Indiego is a starter theme for the [Hugo](https://gohugo.io/) <abbr title="Content Management System">CMS</abbr>
 with a focus on [Publish Own Site, Syndicate Elsewhere](https://indieweb.org/POSSE), syndicating your web site content to your social media networks.
 
 To this end, it uses [microformats](https://en.wikipedia.org/wiki/Microformat), specifically [h-entry](http://microformats.org/wiki/h-entry),  [Twitter cards](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/abouts-cards), [Facebook Open Graph](https://developers.facebook.com/docs/sharing/opengraph) and [schema.org](http://schema.org/docs/gs.html) for [Google+](https://developers.google.com/+/web/snippet/) et al (including [Pinterest](https://developers.pinterest.com/docs/rich-pins/articles/?)).
