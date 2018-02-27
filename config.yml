@@ -5,6 +5,7 @@ theme: "indiego"
 sectionPagesMenu: "main"
 pluralizeListTitles: false
 copyright: "This work is dual-licensed under MIT & GPL v3"
+paginate: 2
 
 params:
   description: "Socially aware theme for Hugo CMS"
