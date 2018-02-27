@@ -1,15 +1,12 @@
 ---
-title: "Ridiculous fervour"
+title: "Mortality explained"
 date: 2018-02-24T23:02:18Z
+description: "There's a lot of nonsense and noise about the place. Degrade."
 image: ""
 imageAlt: ""
 imageCap: ""
 draft: false
 ---
-
-There's a lot of nonsense and noise about the place. Degrade.
-
-<!--more-->
 
 Lorem [markdownum sine](http://qua-sic.com/), et resilit, voce cinis cum illic
 putes si **hostem** domo iacebat visuraque luctus urbem. Penna facti, et hosti

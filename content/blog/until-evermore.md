@@ -1,16 +1,12 @@
 ---
 title: "Until evermore"
 date: 2018-02-24T23:02:12Z
+description: "No more auto summary, all manual from now on"
 image: ""
 imageAlt: ""
 imageCap: ""
 draft: false
 ---
-
-<!--more-->
-
-Evermore auto-summary, until it drops. Cura hastam,
-pennas fortunaque prima.
 
 Citius Pandione effugere demas quinque, calentes dixerat! Tibi suo, sub concipit
 pedum: feci sine: sed contigit ignis!

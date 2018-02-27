@@ -1,15 +1,12 @@
 ---
 title: "One More Go"
+description: "Banana flavoured description"
 date: 2018-02-27T14:45:42Z
 image: ""
 imageAlt: ""
 imageCap: ""
 draft: false
 ---
-
-Manual. Summary. Right. Write. Here.
-
-<!--more-->
 
 Regibus virginis contendite saepe: pete digitos genitor neve, nemora voles.
 Teneras caeruleus percepit Iuppiter conplexusque ponit, manu piscem sibi haut

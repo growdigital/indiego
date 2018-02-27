@@ -1,15 +1,12 @@
 ---
 title: "No Idea"
 date: 2018-02-24T22:47:13Z
+description: "Summary, how will it work? Indoluisse frustra sublimis, aper. Sub morsibus credidit."
 image: ""
 imageAlt: ""
 imageCap: ""
 draft: false
 ---
-
-<!--more-->
-
-Auto summary, how will it work? Indoluisse frustra sublimis, aper. Sub morsibus credidit.
 
 - Raptos deceant custos tangeret optetis armarat resolvit
 - Mediae sustineant Titania

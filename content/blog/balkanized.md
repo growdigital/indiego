@@ -1,15 +1,12 @@
 ---
 title: "Balkanized"
 date: 2018-02-24T22:46:52Z
+description: "Summary here for Balkanized, all broken up into little pieces."
 image: ""
 imageAlt: ""
 imageCap: ""
 draft: false
 ---
-
-Summary here for Balkanized, all broken up into little pieces.
-
-<!--more-->
 
 Lorem markdownum *iussit*, piaeque illuc arduus visum est deo mihi tam
 **coniunx**, coniunx, loco tantus faucesque. Traxit cantato! [Putares

@@ -1,16 +1,12 @@
 ---
 title: "My First Blog"
 date: 2018-02-02T20:26:13Z
-excerpt: ""
+description: "Some blog content. I don't think much of your first summary."
 image: ""
 imageAlt: ""
 imageCap: ""
 draft: false
 ---
-
-Some blog content. I don't think much of your first summary.
-
-<!--more-->
 
 vido sit fortius cantus. Corpore locumque regina arsit meas vivente confudit
 desierim avari?

@@ -1,15 +1,12 @@
 ---
 title: "Ridiculous fervour"
 date: 2018-02-24T23:02:31Z
+description: "Peope say it's true but I think it's a manual summary."
 image: ""
 imageAlt: ""
 imageCap: ""
 draft: false
 ---
-
-Peope say it's true but I think it's a manual summary.
-
-<!--more-->
 
 Des maduere At *miseras dolor et* similis duplex primum; utere uti;
 adiecisse summa est velit axis somnia. Daret praebere quatere certa [me

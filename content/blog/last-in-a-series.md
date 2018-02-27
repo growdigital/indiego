@@ -1,15 +1,12 @@
 ---
 title: "Last in a series"
 date: 2018-02-24T23:02:23Z
+description: "I feel like there won’t really be any more in this series. Summary. Manual."
 image: ""
 imageAlt: ""
 imageCap: ""
 draft: false
 ---
-
-I feel like there won’t really be any more in this series. Summary. Manual.
-
-<!--more-->
 
 Dolorem infamia pendentia duce
 Perseidos, mergor coniecto tamen tumefecit spectes ubi cessant celas Procris,

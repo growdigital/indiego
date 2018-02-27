@@ -1,15 +1,12 @@
 ---
 title: "Safely Handed"
 date: 2018-02-24T23:02:15Z
+description: "A safe hand off is better than no hand off. This is the summary we experience."
 image: ""
 imageAlt: ""
 imageCap: ""
 draft: false
 ---
-
-A safe hand off is better than no hand off. This is the summary we experience.
-
-<!--more-->
 
 Metuit dedit. Passa annos Psecas; repleri fuit levatae: quos lacrimantia
 evolvit, serpunt. Caelum deae, salibus mihi curas obsessum quaeque cladis; [ego

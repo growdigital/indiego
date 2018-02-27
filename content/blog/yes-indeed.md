@@ -1,15 +1,12 @@
 ---
 title: "Yes indeed"
 date: 2018-02-24T22:46:57Z
+description: "This is the Yes Indeed summary, a summary thereof and into."
 image: ""
 imageAlt: ""
 imageCap: ""
 draft: false
 ---
-
-This is the Yes Indeed summary, a summary thereof and into.
-
-<!--more-->
 
 Lorem markdownum finire quoque erat murmure: praemia orantem capillis, illa
 moenia, at. Utque novitate perdidit. His inde. Et erant, inani quoque bitumine

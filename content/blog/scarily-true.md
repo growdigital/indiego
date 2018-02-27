@@ -1,15 +1,13 @@
 ---
 title: "Scarily True"
 date: 2018-02-24T23:02:07Z
+description: "Yet more manually summaried scarily true stories."
 image: ""
 imageAlt: ""
 imageCap: ""
 draft: false
 ---
 
-<!--more-->
-
-Yet more auto-summaried scarily true stories. 
 Laevam in quam mirator quid iuvenis tamen amor, in repperit in. Florent
 **eripuit in**, cera sorores brevis et pulsus ferebat hosti, Cipe, cibique ulla
 regna ait tendunt debuit. Pluma inferius dura uno nuper ut, rastrique *iura*,

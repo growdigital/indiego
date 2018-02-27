@@ -1,15 +1,12 @@
 ---
 title: "When will it stop?"
 date: 2018-02-24T23:02:40Z
+description: "I thought I had written a manual summary here already?"
 image: ""
 imageAlt: ""
 imageCap: ""
 draft: false
 ---
-
-I thought I had written a manual summary here already?
-
-<!--more-->
 
 Unum fuit, domini quaerebat alumnus niveis nequiquam puduit, faveant illis.
 Cycno o Minos clademque; laniata verba gratissime tumidam *ipsa*: pedesque
