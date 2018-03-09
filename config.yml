@@ -7,17 +7,18 @@ pluralizeListTitles: false
 copyright: "This work is dual-licensed under MIT & GPL v3"
 paginate: 2
 summaryLength: 13
-
+author: 
+  name: "Jake Rayson"
+  email: "contact@growdigital.org"
 
 params:
   description: "Socially aware theme for Hugo CMS"
-  author: "Jake Rayson"
   publisher: "Indiego"
   publisherLogo: "images/logo-thumbnail.png"
   publisherLogoWidth: 220
   publisherLogoHeight: 220
   twitter: "IndiegoHugo"
-  facebook: "1214743245336093"
+  facebook: "IndiegoHugo"
   email: "hi@indiego.org.uk"
   googleplus: "112354208488638707199"
   fbapp_id: "206433049934562"
