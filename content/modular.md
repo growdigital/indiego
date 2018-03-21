@@ -18,7 +18,12 @@ draft: false
 
 ## 1. Frontend build
 
-* Gulp JS, for creating front end. Install node, run npm install. gulp.js
+![Gulp taskrunner logo](/images/gulp.png)
+
+* Modular CSS is a way of organising your CSS, and other assets, into discrete and re‑usable chunks.
+* The individual chunks are **concatenated** and **optimised**.
+* Indiego uses [Gulp](https://gulpjs.com/), an [npm](https://www.npmjs.com/) JavaScript taskrunner.
+
 
 ## 2. CSS Organisation
 
@@ -33,7 +38,6 @@ The CSS organisation is based on [Inverted Triangle CSS](https://github.com/itcs
 5. **Utilities**: high-specificity, very explicit selectors that trump
 everything else. Overrides and helper classes eg `.u-hiddenvisually {}`
 6. **Shameful**: _temporarily disorganised_ CSS lives in `shame.css`
-
 
 **All files relating to a particular module go in that module folder**: eg JavaScript, PNGs, JPEGs, SVGs, CSS, template snippet for styleguide etc. 
 
@@ -58,7 +62,11 @@ src
 
 ### Modified BEM syntax
 
-In short, [this](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/):
+In short:
+
+<span style="color:red; font-size: x-large;">`.block__element--modifier {}`</span>
+
+This is a modified BEM syntax from [@CSSWizardry](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
 
 ```css
 .block {}
@@ -103,7 +111,7 @@ For example, `.button {}`, `.o-media {}`, `.u-cf`, `_-messy-hack`. The odd one i
 
 ## 4. Principles of Modular CSS
 
-Modular CSS is a way of organising your CSS, and other assets, into discrete and re&#8209;usable chunks.
+### Why Modular CSS?
 
 * Each module is written as _separate_ files in their own directory.
 * [Version control](https://git-scm.com/about) is much easier.
