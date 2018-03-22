@@ -1,0 +1,3 @@
+[template.environment]
+  BASE_URL = "set your base url for your website"
+  TITLE = "set the title of your site"
