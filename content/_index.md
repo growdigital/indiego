@@ -10,6 +10,8 @@ draft: false
 
 # Home page
 
+**Version 0.0.1 – please don’t use yet!**
+
 Indiego is a **starter** theme for the [Hugo](https://gohugo.io/) <abbr title="Content Management System">CMS</abbr>, designed for frontend developers. It has two features:
 
 1. [Socially-aware](/social/) blog posts that can be previewed on social networks.
