@@ -1,6 +1,6 @@
-# indiego.org.uk
+# Indiego
 
-Website for Indiego Hugo socially-aware theme
+Socially aware Hugo blog boilerplate, with modular CSS.
 
-Getting there, patience please…
+![Indiego logo](themes/baremin/static/img/logo.svg)
 
