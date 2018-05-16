@@ -1,0 +1,49 @@
+{
+  "name": "indiego",
+  "description": "Socially aware Hugo blog template",
+  "author": "Jake Rayson <hello@growdigital.org>",
+  "license": "(MIT OR GPL-3.0)",
+  "private": false,
+  "version": "0.0.1",
+  "homepage": "https://www.indiego.org.uk/",
+  "repository": "https://github.com/growdigital/indiego",
+  "bugs": {
+    "url": "https://github.com/growdigital/indiego/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hugo",
+    "hugo-theme",
+    "hugo-blog",
+    "hugo-boilerplate",
+    "social",
+    "indieweb",
+    "posse",
+    "bem",
+    "bem-methodology",
+    "modular-css",
+    "microformats",
+    "schema-org",
+    "twitter",
+    "facebook",
+    "opengraph",
+    "google-plus"
+  ],
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^3.0.0",
+    "normalize.css": "^8.0.0",
+    "postcss-cssnext": "^3.1.0"
+  }
+}

@@ -1,7 +1,7 @@
 baseURL: "https://www.indiego.org.uk/"
 languageCode: "en-GB"
 title: "Indiego"
-theme: "indiego"
+theme: "Baremin"
 sectionPagesMenu: "secondary"
 pluralizeListTitles: false
 copyright: "This work is dual-licensed under MIT & GPL v3"
@@ -12,7 +12,7 @@ author:
   email: "hello@growdigital.org"
 
 params:
-  description: "Socially aware theme for Hugo CMS"
+  description: "Socially aware template for Hugo CMS"
   publisher: "Indiego"
   publisherLogo: "images/logo-thumbnail.png"
   publisherLogoWidth: 220

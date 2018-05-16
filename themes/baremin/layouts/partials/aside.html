@@ -1,0 +1,36 @@
+<aside role="complementary">
+  <h2>Secondary navigation</h2>
+  <nav class="nav">
+    {{ $currentPage := . }} {{ range .Site.Menus.secondary }}
+    <a class="{{ if or ($currentPage.IsMenuCurrent " secondary " .) ($currentPage.HasMenuCurrent "secondary " .) }}is-active{{ end }}"
+      href="{{ .URL }}">{{ .Name }}</a>
+    {{ end }}
+  </nav>
+  <h2><a href="{{ .Permalink }}blog/">Blog posts</a></h2>
+  <ol>
+    {{ range first 4 (where .Site.Pages "Section" "blog") }}
+    <li>
+      <a href="{{ .Permalink }}">
+        {{ .Title }}
+      </a>
+    </li>
+    {{ end }}
+  </ol>
+  <h2><a href="{{ .Permalink }}status/">Status udpates</a></h2>
+  <ol>
+    {{ range first 4 (where .Site.Pages "Section" "status") }}
+    <li>
+      <a href="{{ .Permalink }}">
+         {{ substr (.Title | markdownify) 0 30 }}…
+      </a>
+    </li>
+    {{ end }}
+  </ol>
+  <h2><abbr title="Rich Site Summary">RSS</abbr> feeds</h2>
+  <ol>
+    <li><a href="{{ .Permalink }}blog/index.xml" title="News feed for full blog posts, open in RSS news reader"><strong>Blog feed</strong></a>, for newsreaders</li>
+    <li><a href="{{ .Permalink }}index.xml" title="Feed for all posts, blog &amp; status"><strong>News feed</strong></a>, summary of all posts</li>
+  </ol>
+</aside>
+
+

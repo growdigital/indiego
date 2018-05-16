@@ -1,0 +1,37 @@
+<footer class="footer" id="footer" role="contentinfo">
+  <div>
+    <ol class="o-list-bare">
+      <li>
+        <a href="https://twitter.com/{{ .Site.Params.twitter }}" rel="me">Twitter</a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/{{ .Site.Params.facebook  }}" rel="me">Facebook</a>
+      </li>
+      <li>
+        <a href="https://plus.google.com/{{ .Site.Params.googleplus }}" rel="me">Google+</a>
+      </li>
+      <li>
+        <a href="tel:{{ .Site.Params.tel }}" rel="me">Mobile</a>
+      </li>
+      <li>
+        <a href="mailto:{{ .Site.Params.email }}" rel="me">Email</a>
+      </li>
+      <li>
+        <a href="{{ .Site.Params.baseURL }}/index.xml">News feed</a>
+      </li>
+    </ol>
+  </div>
+  <div>
+    <p>Built by
+      <a href="https://www.growdigital.org/">Jake Rayson</a> with
+      <a href="https://gohugo.io/">Hugo</a>, deployed by
+      <a href="https://www.netlify.com/">Netlify</a>
+    </p>
+    <p>
+      <small>Copyright &copy; Jake Rayson 2017-18, licensed under
+        <a href="https://choosealicense.com/licenses/mit/">MIT</a> &amp;
+        <a href="https://choosealicense.com/licenses/gpl-3.0/">GPL v3</a>
+      </small>
+    </p>
+  </div>
+</footer>

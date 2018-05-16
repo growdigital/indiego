@@ -1,0 +1,14 @@
+/* ==========================================================================
+   list-bare
+   ==========================================================================*/
+
+/**
+ * The list-bare object removes any indents and bullet points from lists items
+ * https://github.com/inuitcss/objects.list-bare/blob/master/_objects.list-bare.scss
+ */
+
+.o-list-bare {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

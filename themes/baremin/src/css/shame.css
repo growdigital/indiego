@@ -1,0 +1,118 @@
+/* ==========================================================================
+   Shameful CSS
+   ========================================================================== */
+
+/**
+ * Put shameful CSS in here. Refactor later.
+ * http://csswizardry.com/2013/04/shame-css/
+ */
+
+/**
+ * Use the CSS Wizardry hack namespace
+ * eg ._footer-mobile {}
+ * https://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/#hack-namespaces-_
+ */
+
+/* list-bare.css example of CSS object in /src/modules/objects/, header.hbs and footer.hbs */
+
+/**
+ * TEMPORARY STYLING FOR LAYOUT
+ * Delete all this before starting styling your own site 😄
+ */
+
+.wrapper {
+  padding: 1.5rem;
+}
+
+.wrapper > * {
+  margin: 0 auto;
+  max-width: 44rem;
+}
+
+.header,
+.footer {
+  text-align: center;
+}
+
+.header {
+  padding-top: 1rem;
+}
+
+.header img {
+  display: inline-block;
+  margin: 1rem 0;
+}
+
+.header img:hover {
+  opacity: 0.7;
+}
+
+/* Header and footer visited links as link color */
+.header a:visited,
+.footer a:visited {
+  color: var(--blue);
+}
+
+/* Header and footer links still have hover color */
+.header a:hover,
+.header a:focus,
+.header a:active,
+.footer a:hover,
+.footer a:focus,
+.footer a:active {
+  color: var(--blueviolet);
+}
+
+.footer small {
+  text-align: center;
+}
+
+/* Nav active item */
+.nav .is-active {
+  color: var(--dark) !important;
+}
+
+/* Pagination, built-in Hugo template class */
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.pagination > * {
+  margin: 0 1em;
+  text-align: center;
+  width: 2em;
+}
+
+.pagination .active {
+  outline: 1px solid var(--dark);
+}
+
+/* o-list-bare centered (both ways) inline list using flexbox */
+.o-list-bare {
+  align-items: center; /* Secondary axis alignment */
+  display: flex;
+  height: 100%; /* To fill container vertically */
+  justify-content: center;
+  padding: 0.5rem 0; /* temp padding */
+}
+
+.o-list-bare > * {
+  margin: 0 1rem;
+}
+
+hr {
+  border-top: 1px solid var(--light);
+}
+
+.meta dt {
+  float: left;
+width: 8em;
+font-weight: bold;
+}
+
+h1, h2, h3, h4, h5 {
+  color: var(--indigo);
+}
