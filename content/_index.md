@@ -1,5 +1,6 @@
 ---
 title: "Home"
+description: "Socially aware theme for Hugo CMS" 
 menu: "main"
 date: 2018-02-09T19:21:11Z
 image: ""

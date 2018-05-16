@@ -1,5 +1,5 @@
 ---
-title: 2018-02-27T20:53:04Z
+title: "Garaged"
 date: 2018-02-27T20:53:04Z
 image: ""
 imageAlt: ""

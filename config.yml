@@ -9,7 +9,7 @@ paginate: 2
 summaryLength: 13
 author:
   name: "Jake Rayson"
-  email: "contact@growdigital.org"
+  email: "hello@growdigital.org"
 
 params:
   description: "Socially aware theme for Hugo CMS"
