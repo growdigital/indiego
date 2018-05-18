@@ -1,6 +1,6 @@
 {
-  "name": "indiego",
-  "description": "Socially aware Hugo blog template",
+  "name": "indiegomin",
+  "description": "Socially aware minimal Hugo blog template for Indiego starter kit",
   "author": "Jake Rayson <hello@growdigital.org>",
   "license": "(MIT OR GPL-3.0)",
   "private": false,

@@ -1,7 +1,7 @@
 baseURL: "https://www.indiego.org.uk/"
 languageCode: "en-GB"
 title: "Indiego"
-theme: "Baremin"
+theme: "indiegomin"
 sectionPagesMenu: "secondary"
 pluralizeListTitles: false
 copyright: "This work is dual-licensed under MIT & GPL v3"
