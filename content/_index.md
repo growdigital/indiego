@@ -9,13 +9,11 @@ imageCap: ""
 draft: false
 ---
 
-# Home page
+# Hugo Indieweb Starter Kit
 
-**Version 0.0.1 – please don’t use yet!**
+Indiego is a **starter kit** for the [Hugo](https://gohugo.io/) <abbr title="Content Management System">CMS</abbr>, designed for frontend developers. It has two features:
 
-Indiego is a **starter** theme for the [Hugo](https://gohugo.io/) <abbr title="Content Management System">CMS</abbr>, designed for frontend developers. It has two features:
-
-1. [Socially-aware](/social/) blog posts that can be previewed on social networks.
+1. [Socially-aware](/social/) blog & status posts that can be previewed on social networks.
 2. [Modular CSS](/modular/) frontend workflow, makes design & developing a theme much easier.
 
 We want Indiego to simplify the [Indieweb](https://indieweb.org/), so that content creators can focus on [Publish (on your) Own Site, Syndicate Elsewhere](https://indieweb.org/POSSE). This means **easily** syndicating your web site content to your social media networks.

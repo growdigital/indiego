@@ -6,7 +6,7 @@
       href="{{ .URL }}">{{ .Name }}</a>
     {{ end }}
   </nav>
-  <h2><a href="{{ .Permalink }}blog/">Blog posts</a></h2>
+  <h2><a href="/blog/">Blog posts</a></h2>
   <ol>
     {{ range first 4 (where .Site.Pages "Section" "blog") }}
     <li>
@@ -16,12 +16,12 @@
     </li>
     {{ end }}
   </ol>
-  <h2><a href="{{ .Permalink }}status/">Status udpates</a></h2>
+  <h2><a href="/status/">Status udpates</a></h2>
   <ol>
     {{ range first 4 (where .Site.Pages "Section" "status") }}
     <li>
       <a href="{{ .Permalink }}">
-         {{ substr (.Title | markdownify) 0 30 }}…
+        {{ substr (.Title | markdownify) 0 30 }}…
       </a>
     </li>
     {{ end }}

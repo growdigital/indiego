@@ -12,7 +12,7 @@ author:
   email: "hello@growdigital.org"
 
 params:
-  description: "Socially aware template for Hugo CMS"
+  description: "Socially aware starter kit for Hugo CMS"
   publisher: "Indiego"
   publisherLogo: "images/logo-thumbnail.png"
   publisherLogoWidth: 220

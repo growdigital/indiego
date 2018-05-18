@@ -130,7 +130,7 @@ For example, `.button {}`, `.o-media {}`, `.u-cf`, `_-messy-hack`. The odd one i
 
 ### Visibility
 
-A guiding principle in [Kanban](https://en.wikipedia.org/wiki/Kanban_(development) development is to **make work visible** (Kanban 看板 literally means billboard in Japanese). To this end, **use a styleguide**, from the beginning. Indiego recommends [Fractal](https://fractal.build/), a magnificent, _automated_, styleguide builder.
+A guiding principle in [Kanban](https://en.wikipedia.org/wiki/Kanban_(development)) development is to **make work visible** (Kanban 看板 literally means billboard in Japanese). To this end, **use a styleguide**, from the beginning. Indiego recommends [Fractal](https://fractal.build/), a magnificent, _automated_, styleguide builder.
 
 ## Credits & further reading
 

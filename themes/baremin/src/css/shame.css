@@ -67,6 +67,11 @@
   text-align: center;
 }
 
+/* Nav margins */
+.nav {
+  margin: 1em 0;
+}
+
 /* Nav active item */
 .nav .is-active {
   color: var(--dark) !important;
