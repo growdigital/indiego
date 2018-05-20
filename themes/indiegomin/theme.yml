@@ -1,12 +1,27 @@
-name: "indiegomin"
-license: "(MIT OR GPL-3.0)"
-licenselink: "https://github.com/growdigital/indiego/blob/master/LICENSE.md"
-description: "Bare minimum template for Indiego with modular CSS pipeline"
-homepage: "https://www.indiego.org.uk/"
-tags: ["hugo-theme", "hugo-blog-theme", "indieweb", "posse", "Publish On your Site, Syndicate Elsewhere", "hugo", "microformats", "bem", "modular CSS", "h-entry"]
-features: ["blog", "modular CSS asset pipeline", "microformats for social previews", "RSS feeds for blog and status posts"]
-min_version: "0.33"
+name: indiegomin
+license: (MIT OR GPL-3.0)
+licenselink: https://github.com/growdigital/indiego/blob/master/LICENSE.md
+description: Bare minimum template for Indiego with modular CSS pipeline
+homepage: https://www.indiego.org.uk/
+tags:
+- hugo-theme
+- hugo-blog-theme
+- indieweb
+- posse
+- Publish On your Site
+- Syndicate Elsewhere
+- hugo
+- microformats
+- bem
+- modular CSS
+- h-entry
+features:
+- blog
+- modular CSS asset pipeline
+- microformats for social previews
+- RSS feeds for blog and status posts
+min_version: 0.33
 
 author:
-  name: "Jake Rayson"
-  homepage: "https://www.growdigital.org/"
+  name: Jake Rayson
+  homepage: https://www.growdigital.org/

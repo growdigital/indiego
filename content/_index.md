@@ -18,3 +18,4 @@ Indiego is a **starter kit** for the [Hugo](https://gohugo.io/) <abbr title="Con
 
 We want Indiego to simplify the [Indieweb](https://indieweb.org/), so that content creators can focus on [Publish (on your) Own Site, Syndicate Elsewhere](https://indieweb.org/POSSE). This means **easily** syndicating your web site content to your social media networks.
 
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/growdigital/indiego)

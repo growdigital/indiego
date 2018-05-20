@@ -1,25 +1,26 @@
-baseURL: "https://www.indiego.org.uk/"
-languageCode: "en-GB"
-title: "Indiego"
-theme: "indiegomin"
-sectionPagesMenu: "secondary"
+baseURL: https://www.indiego.org.uk/
+languageCode: en-GB
+title: Indiego
+theme: indiegomin
+sectionPagesMenu: secondary
 pluralizeListTitles: false
-copyright: "This work is dual-licensed under MIT & GPL v3"
+copyright: This work is dual-licensed under MIT & GPL v3
 paginate: 2
 summaryLength: 13
 author:
-  name: "Jake Rayson"
-  email: "hello@growdigital.org"
-
+  name: Jake Rayson
+  email: hello@growdigital.org
+taxonomies:
+  tag: tags
 params:
-  description: "Socially aware starter kit for Hugo CMS"
-  publisher: "Indiego"
-  publisherLogo: "images/logo-thumbnail.png"
+  description: Socially aware starter kit for Hugo CMS
+  publisher: Indiego
+  publisherLogo: images/logo-thumbnail.png
   publisherLogoWidth: 220
   publisherLogoHeight: 220
-  twitter: "IndiegoHugo"
-  facebook: "IndiegoHugo"
-  email: "hi@indiego.org.uk"
-  googleplus: "112354208488638707199"
-  fbapp_id: "206433049934562"
+  twitter: IndiegoHugo
+  facebook: IndiegoHugo
+  email: hi@indiego.org.uk
+  googleplus: 112354208488638707199
+  fbapp_id: 206433049934562
   tel: "+447398474064"

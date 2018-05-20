@@ -1,10 +1,12 @@
 ---
-title: "{{ replace .TranslationBaseName "-" " " | title }}"
+title: {{ replace .TranslationBaseName "-" " " | title }}
 date: {{ .Date }}
-description: ""
-image: ""
-imageAlt: ""
-imageCap: ""
+description: 
+tags: 
+- IndieGo
+image: 
+imageAlt:  
+imageCap: 
 draft: false
 ---
 

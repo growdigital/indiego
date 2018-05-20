@@ -1,6 +1,6 @@
 ---
-title: "{{ substr (.TranslationBaseName) 7 | title }}"
+title: {{ substr (.TranslationBaseName) 7 | title }}
 date: {{ .Date }}
-image: ""
-imageAlt: ""
+image: 
+imageAlt: 
 ---
