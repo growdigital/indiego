@@ -5,7 +5,7 @@ description:
 tags: 
 - IndieGo
 image: 
-imageAlt:  
+imageAlt: 
 imageCap: 
 draft: false
 ---
