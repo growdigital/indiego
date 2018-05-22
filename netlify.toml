@@ -1,4 +1,4 @@
 [build]
   command = "hugo"
   publish = "public"
-  HUGO_VERSION = 0.36
+  HUGO_VERSION = "0.36"
