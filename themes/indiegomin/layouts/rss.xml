@@ -14,12 +14,20 @@
     {{ end }}
     {{ range .Data.Pages }}
     <item>
-      <title>{{ .Title }}</title>
+      <title>
+      {{- if eq .Type "status" -}}
+        Status: {{ .Summary | html }}
+      {{- else -}}
+        Blog: {{ .Title }} {{ range .Params.tags }}#{{ . }} {{ end }}
+      {{- end -}}
+      </title>
       <link>{{ .Permalink }}</link>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
       <guid>{{ .Permalink }}</guid>
-      <description>{{ .Summary | html }}</description>
+      <description>
+        {{- .Description | html -}}
+      </description>
     </item>
     {{ end }}
   </channel>
