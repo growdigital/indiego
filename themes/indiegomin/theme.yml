@@ -20,7 +20,7 @@ features:
 - modular CSS asset pipeline
 - microformats for social previews
 - RSS feeds for blog and status posts
-min_version: 0.33
+min_version: 0.36
 
 author:
   name: Jake Rayson
