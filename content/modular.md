@@ -48,7 +48,7 @@ src
 ├── css
 │   ├── settings
 │   └── shame.css
-├── images
+├── img
 ├── js
 └── modules
     ├── components
