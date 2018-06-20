@@ -1,10 +1,9 @@
 const gulp = require('gulp');
 const browserSync = require('browser-sync').create();
 const	concat = require('gulp-concat');
-const	cssnext = require('postcss-cssnext');
+const presetenv = require('postcss-preset-env');
 const	del = require('del');
 const	minifyCSS = require('gulp-clean-css');
-const	minifyHTML = require('gulp-htmlmin');
 const	imagemin = require('gulp-imagemin');
 const	postcss = require('gulp-postcss');
 const	rename = require('gulp-rename');
@@ -39,7 +38,7 @@ const	paths = {
 // CSS task
 gulp.task('css', function () {
   const processors = [
-    cssnext
+    presetenv
   ];
   gulp
     .src(paths.css)
