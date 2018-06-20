@@ -3,9 +3,8 @@ title: "Home"
 description: "Socially aware theme for Hugo CMS" 
 menu: "main"
 date: 2018-02-09T19:21:11Z
-image: ""
-imageAlt: ""
-imageCap: ""
+image: "/img/home.png"
+imageAlt: "Illustration showing Indiego house on planet Hugo, with Google Plus, Facebook and Twitter balloons coming out the front door"
 draft: false
 ---
 

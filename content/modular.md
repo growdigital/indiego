@@ -1,10 +1,10 @@
 ---
 title: "Modular"
+description: "Indiego uses modular components based on Inverted Triangle CSS by Harry Roberts, using a BEM-style syntax"
 menu: "main"
 date: 2018-02-09T19:21:11Z
-image: ""
-imageAlt: ""
-imageCap: ""
+image: "/img/modular.png"
+imageAlt: "Illusration of spanner doing up a CSS nut, with ITCSS-ish inverted CSS coloured triangle in the corner"
 draft: false
 ---
 
@@ -18,7 +18,7 @@ draft: false
 
 ## 1. Frontend build
 
-![Gulp taskrunner logo](/images/gulp.png)
+![Gulp taskrunner logo](/img/gulp.png)
 
 * Modular CSS is a way of organising your CSS, and other assets, into discrete and re‑usable chunks.
 * The individual chunks are **concatenated** and **optimised**.
@@ -29,7 +29,7 @@ draft: false
 
 The CSS organisation is based on [Inverted Triangle CSS](https://github.com/itcss) by [Harry Roberts](https://twitter.com/csswizardry), from the most applicable styles (variables, base) to specific modules (objects and components) and to _very specific_ trumping [utilities](https://github.com/suitcss/utils) and [shameful hacks](https://csswizardry.com/2013/04/shame-css/).
 
-![Rainbow coloured Inverted CSS Triangle](/images/inverted-css-triangle.png)
+![Rainbow coloured Inverted CSS Triangle](/img/inverted-css-triangle.png)
 
 1. **Variables**: global variables and site-wide settings eg `responsive.css`
 2. **Base**: unclassed HTML elements eg `a {}`
