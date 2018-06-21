@@ -10,4 +10,10 @@ draft: false
 
 # About Indiego
 
-Indiego is built with a vast amount of patience and care by [Jake Rayson](https://github.com/growdigital/), a frontend developer in West Wales, UK.
+Indiego is built with patience and care by [Jake Rayson](https://github.com/growdigital/), a frontend developer in West Wales, UK. 
+
+It is three things: 
+
+1. **Hugo starter kit**: hit the ground with the fantastically fast & flexible [Hugo](https://gohugo.io/) static site generator.
+2. **Socially aware**: all blog and status posts created will generate a preview in different social platforms.
+3. **Modular frontend workflow**: the starter kit is just the starting point – using [Gulp](https://gulpjs.com/), the frontend developer can easily create new CSS components which are combined and optimised automagically.

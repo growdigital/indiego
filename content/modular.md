@@ -15,7 +15,6 @@ draft: false
 3. [Syntax](#3-syntax)
 4. [Principles](#4-principles-of-modular-css)
 
-
 ## 1. Frontend build
 
 ![Gulp taskrunner logo](/img/gulp.png)
@@ -23,7 +22,6 @@ draft: false
 * Modular CSS is a way of organising your CSS, and other assets, into discrete and re‑usable chunks.
 * The individual chunks are **concatenated** and **optimised**.
 * Indiego uses [Gulp](https://gulpjs.com/), an [npm](https://www.npmjs.com/) JavaScript taskrunner.
-
 
 ## 2. CSS Organisation
 
