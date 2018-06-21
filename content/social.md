@@ -10,9 +10,7 @@ draft: false
 
 # Socially aware
 
-Indiego outputs all blog and status posts in a format which can be previewd in all major social networks. 
-
-What this means in practise is a nice picture when you post a link to Facebook, Twitter and Google.
+Indiego outputs all blog and status posts in a format which can be previewd in all major social networks. What this means in practise is a **nice picture** when you post a link to Facebook, Twitter and Google.
 
 Currently, you still need to use a third party service to share your <abbr title="Really Simple Syndication">[RSS](https://en.wikipedia.org/wiki/RSS)</abbr> news feed with social networks. I use the free plans on [Hootsuite](https://hootsuite.com/) for Facebook & WordPress, and [dlvr.it](https://dlvrit.com/) for Twitter, Google+ & Linkedin.
 
@@ -39,7 +37,7 @@ Just so you know, the microformats are defined in 3 places:
 
 ### Microformat validator tools
 
-If you need to make sure the microformats in your posts validate properly, use these tools:
+To ensure the microformats in your posts validate properly, use these tools:
 
 * Indiewebify.me h-entry validator  
   <https://indiewebify.me/validate-h-entry/>
