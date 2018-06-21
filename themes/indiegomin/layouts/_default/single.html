@@ -1,5 +1,6 @@
 {{ define "main" }}
-  <main>
+  <main itemscope itemtype="https://schema.org/WebPage">
+  {{ partial "micro-schema.html" . }}
     {{ .Content }}
   </main>
 {{ end }}
