@@ -3,7 +3,7 @@
 {{ if eq .Type "status" }}
 <meta itemprop="description" content="{{ .Summary }}">
 {{ else }}
-<meta itemprop="description" content="{{ .Params.Description }}">
+<meta itemprop="description" content="{{ .Description }}">
 {{ end }}
 {{ if .Params.image }}
 <meta itemprop="image" content="{{ .Params.image }}">
