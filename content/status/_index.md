@@ -10,4 +10,4 @@ draft: false
 
 # Status page
 
-This is the Status page.
+A list of status posts.
