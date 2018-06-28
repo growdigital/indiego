@@ -13,7 +13,7 @@
   <section>
     <h2><a href="/blog/">Blog posts</a></h2>
     <ol>
-      {{ range first 4 (where .Site.Pages "Section" "blog") }}
+      {{ range first 4 (where .Site.RegularPages "Section" "blog") }}
       <li>
         <a href="{{ .Permalink }}">
           {{ .Title }}
@@ -25,7 +25,7 @@
   <section>
     <h2><a href="/status/">Status udpates</a></h2>
     <ol>
-      {{ range first 4 (where .Site.Pages "Section" "status") }}
+      {{ range first 4 (where .Site.RegularPages "Section" "status") }}
       <li>
         <a href="{{ .Permalink }}">
           {{ substr (.Content | markdownify) 0 40 }}…
