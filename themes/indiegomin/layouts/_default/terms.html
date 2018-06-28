@@ -1,12 +1,14 @@
 {{ define "main" }}
 
-<h1>Tags</h1>
-
+{{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
+<h1>{{ $taxonomyname | humanize }}</h1>
 <ul>
-  {{ $data := .Data }}
-  {{ range $key, $value := .Data.Terms.Alphabetical }}
-  <li><a href="/{{ $data.Plural }}/{{ $value.Name | urlize }}"> {{ replace $value.Name "-" " " }} </a> [{{ $value.Count }}] </li>
+  {{ range $key, $value := $taxonomy }}
+  <li>
+    <a href="{{ " / " | relLangURL}}{{ $taxonomyname | urlize }}/{{ $key | urlize}}">{{ $key }}</a> [{{ $value.Count }}]
+  </li>
   {{ end }}
 </ul>
+{{ end }}
 
 {{ end }}
