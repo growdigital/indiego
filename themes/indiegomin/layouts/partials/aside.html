@@ -6,10 +6,13 @@
       href="{{ .URL }}">{{ .Name }}</a>
     {{ end }}
   </nav>
-  <h2>Blog tags</h2>
+  <h2><a href="/tags/">Blog tags</a></h2>
   <ul>
-    {{ range .Params.tags }}
-    <li>{{ . }}</li>
+    {{ $data := .Data }}
+    {{ range $key, $value := .Data.Terms.Alphabetical }}
+    <li>
+      <a href="/{{ $data.Plural }}/{{ $value.Name | urlize }}"> {{ $value.Name }}</a>
+    </li>
     {{ end }}
   </ul>
   <h2><a href="/blog/">Blog posts</a></h2>
