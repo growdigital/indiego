@@ -5,7 +5,7 @@
       <h1 class="p-name">
         {{ .Date.Format "Monday" }}, {{ .Date.Format "2" | humanize}} {{ .Date.Format "January 2006 03:04pm" }}
       </h1>
-      <div class="e-content">
+      <div class="e-content" itemprop="mainEntityOfPage">
         {{ .Content }}
       </div>
       {{ if .Params.image }}
