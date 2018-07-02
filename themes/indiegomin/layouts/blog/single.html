@@ -3,7 +3,7 @@
     <article class="h-entry" itemscope itemtype="https://schema.org/Article">
       {{ partial "micro-schema.html" . }}
       <h1 class="p-name">{{ .Title }}</h1>
-      <time class="dt-published" pubdate itemprop="datePublished">
+      <time class="dt-published" pubdate itemprop="datePublished" content="{{ .Date.Format "2015-01-21" }}">
         {{ .Date.Format "Monday" }}, {{ .Date.Format "2" | humanize}} {{ .Date.Format "January 2006" }}
       </time>
       <p class="p-summary">{{ .Description }}</p>

@@ -21,7 +21,7 @@
         </dd>
         <dt>Date:</dt>
         <dd>
-          <time class="dt-published" pubdate itemprop="datePublished">
+          <time class="dt-published" pubdate itemprop="datePublished" content="{{ .Date.Format "2015-01-21" }}">
             {{ .Date.Format "Monday" }}, {{ .Date.Format "2" | humanize}} {{ .Date.Format "January 2006 03:04pm" }}
           </time>
         </dd>
