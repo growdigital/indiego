@@ -7,11 +7,19 @@
         {{ .Date.Format "Monday" }}, {{ .Date.Format "2" | humanize}} {{ .Date.Format "January 2006" }}
       </time>
       <p class="p-summary">{{ .Description }}</p>
+      {{ if .Params.tags }}
+        <h3>Tags</h3>
+        <ul class="p-category">
+          {{ range .Params.tags }}
+            <li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> </li>
+          {{ end }}
+        </ul>
+      {{ end }}
       {{ if .Params.image }}
-      <figure>
-        <img src="{{ .Params.image }}" alt="{{ .Params.imageAlt }}">
-        <figcaption>{{ .Params.imageCap }}</figcaption>
-      </figure>
+        <figure>
+          <img src="{{ .Params.image }}" alt="{{ .Params.imageAlt }}">
+          <figcaption>{{ .Params.imageCap }}</figcaption>
+        </figure>
       {{ end }}
       <div class="e-content" itemprop="mainEntityOfPage">
         {{ .Content }}
