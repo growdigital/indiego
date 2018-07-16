@@ -41,6 +41,7 @@
 .header img {
   display: inline-block;
   margin: 1rem 0;
+  width: 6rem;
 }
 
 .header img:hover {
