@@ -1,7 +1,7 @@
 <aside role="complementary">
   <section>
     <h2><a href="/blog/">Blog posts</a></h2>
-    <ol>
+    <ul>
       {{ range first 4 (where .Site.RegularPages "Section" "blog") }}
       <li>
         <a href="{{ .Permalink }}">
@@ -9,11 +9,11 @@
         </a>
       </li>
       {{ end }}
-    </ol>
+    </ul>
   </section>
   <section>
     <h2><a href="/status/">Status udpates</a></h2>
-    <ol>
+    <ul>
       {{ range first 4 (where .Site.RegularPages "Section" "status") }}
       <li>
         <a href="{{ .Permalink }}">
@@ -21,14 +21,14 @@
         </a>
       </li>
       {{ end }}
-    </ol>
+    </ul>
   </section>
   <section>
     <h2><abbr title="Rich Site Summary">RSS</abbr> feeds</h2>
-    <ol>
+    <ul>
       <li><a href="{{ .Permalink }}blog/index.xml" title="News feed for full blog posts, open in RSS news reader"><strong>Blog feed</strong></a>, for newsreaders</li>
       <li><a href="{{ .Permalink }}index.xml" title="Feed for all posts, blog &amp; status"><strong>News feed</strong></a>, summary of all posts</li>
-    </ol>
+    </ul>
   </section>
   <section>
     <h2>Secondary navigation</h2>

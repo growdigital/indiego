@@ -29,8 +29,7 @@
   max-width: 44rem;
 }
 
-.header,
-.footer {
+.header {
   text-align: center;
 }
 
@@ -68,9 +67,20 @@
   text-align: center;
 }
 
-/* Nav margins */
-.nav {
+.credit {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+/* Nav & social margins */
+.nav,
+.social {
   margin: 1em 0;
+}
+
+.nav ol > *,
+.social ol > * {
+  display: inline-block;
 }
 
 /* Nav active item */
@@ -94,19 +104,6 @@
 
 .pagination .active {
   outline: 1px solid var(--dark);
-}
-
-/* o-list-bare centered (both ways) inline list using flexbox */
-.o-list-bare {
-  align-items: center; /* Secondary axis alignment */
-  display: flex;
-  height: 100%; /* To fill container vertically */
-  justify-content: center;
-  padding: 0.5rem 0; /* temp padding */
-}
-
-.o-list-bare > * {
-  margin: 0 1rem;
 }
 
 hr {

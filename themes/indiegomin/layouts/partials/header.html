@@ -10,8 +10,12 @@
   </div>
   <nav class="nav">
     {{ $currentPage := . }}
-    {{ range .Site.Menus.main }}
-    <a class="{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}is-active{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
-    {{ end }}
+    <ol class="o-list-bare">
+      {{ range .Site.Menus.main }}
+      <li>
+        <a class="{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}is-active{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
+      </li>
+      {{ end }}
+    </ol>
   </nav>
 </header>

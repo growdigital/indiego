@@ -8,7 +8,7 @@ imageAlt: "Illustration showing Indiego house on planet Hugo, with Google Plus, 
 draft: false
 ---
 
-# Hugo Indieweb Starter Kit
+# Hugo Starter Kit
 
 Indiego is a **starter kit** for the [Hugo](https://gohugo.io/) <abbr title="Content Management System">CMS</abbr>, designed for frontend developers. It has two features:
 

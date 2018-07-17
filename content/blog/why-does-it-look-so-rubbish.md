@@ -10,7 +10,7 @@ imageCap:
 draft: false
 ---
 
-Indiego is a **starter** kit for the [Hugo](https://gohugo.io/) CMS, which means it tries to be as [vanilla]() as possible.
+Indiego is a **starter** kit for the [Hugo](https://gohugo.io/) CMS, meaning it’s as [vanilla](https://en.wikipedia.org/wiki/Vanilla_software) as possible, so you have less clearing up to do.
 
 You need to delete all the styles in [`shame.css`](https://github.com/growdigital/indiego/blob/master/themes/indiegomin/src/css/shame.css), then start to build out your own designs with the [Gulp](https://gulpjs.com/) workflow. 
 

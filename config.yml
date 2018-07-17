@@ -13,7 +13,7 @@ author:
 taxonomies:
   tag: tags
 params:
-  description: Socially aware starter kit for Hugo CMS
+  description: Socially aware starter kit for Hugo
   publisher: Indiego
   publisherLogo: img/logo-thumbnail.png
   publisherLogoWidth: 220
