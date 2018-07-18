@@ -16,7 +16,7 @@
     <item>
       <title>
       {{- if eq .Type "status" -}}
-        Status: {{ .Summary | html }}
+        {{ .Summary | html }}
       {{- else -}}
         Blog: {{ .Title }} {{ range .Params.tags }}#{{ . }} {{ end }}
       {{- end -}}
