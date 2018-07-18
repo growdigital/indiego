@@ -31,6 +31,6 @@ I know, 14 things is a **lot** of config. But it’s worth it.
 
 ## Some graphical things to get you moving
 
-1. A logo for the home page! All graphics are stored as individual components in [`themes/indiegomin/src/modules/components/graphics`](https://github.com/growdigital/indiego/tree/master/themes/indiegomin/src/modules/components/graphics)
+1. A logo for the home page! All graphics are stored as individual components in the theme folder [`./src/modules/components/graphics`](https://github.com/growdigital/indiego/tree/master/themes/indiegomin/src/modules/components/graphics)
 2. A favicon. To get properly setup with favicons, look at using the awesome [Favicon Generator](https://realfavicongenerator.net/)
 
