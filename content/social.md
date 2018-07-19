@@ -1,10 +1,10 @@
 ---
-title: "Social"
-description: "Indiego outputs microformat-ready posts and pages which can be previewed by different social networks"
-menu: "main"
+title: Social
+description: Indiego outputs microformat-ready posts and pages which can be previewed by different social networks
+menu: main
 date: 2018-02-09T19:21:11Z
-image: "https://www.indiego.org.uk/img/social.png"
-imageAlt: "Happy pacman face chatting RSS symbols to Google Plus, Facebook and Twitter logos – blah! blah! blah!"
+image: https://www.indiego.org.uk/img/social.png
+imageAlt: Happy pacman face chatting RSS symbols to Google Plus, Facebook and Twitter logos – blah! blah! blah!
 draft: false
 ---
 

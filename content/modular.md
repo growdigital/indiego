@@ -1,10 +1,10 @@
 ---
-title: "Modular"
-description: "Indiego uses modular components based on Inverted Triangle CSS by Harry Roberts, using a BEM-style syntax"
-menu: "main"
+title: Modular
+description: Indiego uses modular components based on Inverted Triangle CSS by Harry Roberts, using a BEM-style syntax
+menu: main
 date: 2018-02-09T19:21:11Z
-image: "https://www.indiego.org.uk/img/modular.png"
-imageAlt: "Illusration of spanner doing up a CSS nut, with ITCSS-ish inverted CSS coloured triangle in the corner"
+image: https://www.indiego.org.uk/img/modular.png
+imageAlt: Illusration of spanner doing up a CSS nut, with ITCSS-ish inverted CSS coloured triangle in the corner
 draft: false
 ---
 
