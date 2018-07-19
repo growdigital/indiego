@@ -1,10 +1,10 @@
 ---
-title: "Blog"
+title: Blog
 date: 2018-02-09T19:21:11Z
-description: ""
-image: ""
-imageAlt: ""
-imageCap: ""
+description: A list of Indiego blog posts
+image: 
+imageAlt: 
+imageCap: 
 draft: false
 ---
 

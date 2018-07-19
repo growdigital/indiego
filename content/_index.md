@@ -1,10 +1,10 @@
 ---
-title: "Home"
-description: "Hugo CMS socially aware starter kit with modular CSS workflow"
-menu: "main"
+title: Home
+description: Hugo CMS socially aware starter kit with modular CSS workflow
+menu: main
 date: 2018-02-09T19:21:11Z
-image: "https://www.indiego.org.uk/img/home.png"
-imageAlt: "Illustration showing Indiego house on planet Hugo, with Google Plus, Facebook and Twitter balloons coming out the front door"
+image: https://www.indiego.org.uk/img/home.png
+imageAlt: Illustration showing Indiego house on planet Hugo, with Google Plus, Facebook and Twitter balloons coming out the front door
 draft: false
 ---
 
