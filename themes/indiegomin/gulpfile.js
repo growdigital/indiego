@@ -30,8 +30,8 @@ const	paths = {
 	img: [
 		'./src/modules/**/**/*.+(png|jpg|svg|ico)',
 		'./src/modules/**/**/**/*.+(png|jpg|svg|ico)',
-		'./src/assets/img/**/*.+(png|jpg|svg|ico)',
-		'./src/assets/img/*.+(png|jpg|svg|ico)'
+		'./src/img/**/*.+(png|jpg|svg|ico)',
+		'./src/img/*.+(png|jpg|svg|ico)'
 	]
 };
 
