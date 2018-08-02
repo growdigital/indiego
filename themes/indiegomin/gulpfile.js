@@ -12,18 +12,18 @@ const	uglify = require('gulp-uglify');
 // Define paths. The order is important.
 const	paths = {
 	css: [
-    './src/css/settings/variables.css',
+    './src/assets/css/settings/variables.css',
     './node_modules/normalize-css/normalize.css',
-    './src/css/settings/base.css',
-    './src/css/settings/typography.css',
-    './src/css/settings/responsive.css',
+    './src/assets/css/settings/base.css',
+    './src/assets/css/settings/typography.css',
+    './src/assets/css/settings/responsive.css',
     './src/modules/objects/**/*.css',
     './src/modules/components/**/**/*.css',
     './src/modules/utilities/**/**/*.css',
-    './src/css/shame.css'
+    './src/assets/css/shame.css'
 	],
 	js: [
-    './src/js/*.js',
+    './src/assets/js/*.js',
 		'./src/modules/**/**/*.js',
 		'./src/modules/**/**/**/*.js'
 	],
@@ -45,7 +45,7 @@ gulp.task('css', function () {
     .pipe(concat('app.css'))
     .pipe(postcss(processors))
     .pipe(minifyCSS())
-    .pipe(gulp.dest('./static/assets/css/'));
+    .pipe(gulp.dest('./static/assets/'));
 });
 
 // Image minification task
@@ -55,7 +55,7 @@ gulp.task('minimage', () =>
     .src(paths.img)
     .pipe(imagemin({ progressive: true, pngquant: true, optimizationLevel: 3 }))
     .pipe(rename({ dirname: '' }))
-    .pipe(gulp.dest('./static/assets/img'))
+    .pipe(gulp.dest('./static/assets/img/'))
 );
 
 // JS uglify
@@ -64,7 +64,7 @@ gulp.task('js', () =>
     .src(paths.js)
 		.pipe(concat('app.js'))
 		.pipe(uglify())
-		.pipe(gulp.dest('./static/assets/js'))
+		.pipe(gulp.dest('./static/assets/'))
 );
 
 // Clean task
