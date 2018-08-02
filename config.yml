@@ -15,7 +15,7 @@ taxonomies:
 params:
   description: Socially aware starter kit for Hugo
   publisher: Indiego
-  publisherLogo: img/logo-thumbnail.png
+  publisherLogo: assets/img/logo-thumbnail.png
   publisherLogoWidth: 220
   publisherLogoHeight: 220
   twitter: IndiegoHugo

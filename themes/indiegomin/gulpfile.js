@@ -30,8 +30,8 @@ const	paths = {
 	img: [
 		'./src/modules/**/**/*.+(png|jpg|svg|ico)',
 		'./src/modules/**/**/**/*.+(png|jpg|svg|ico)',
-		'./src/img/**/*.+(png|jpg|svg|ico)',
-		'./src/img/*.+(png|jpg|svg|ico)'
+		'./src/assets/img/**/*.+(png|jpg|svg|ico)',
+		'./src/assets/img/*.+(png|jpg|svg|ico)'
 	]
 };
 
@@ -45,7 +45,7 @@ gulp.task('css', function () {
     .pipe(concat('app.css'))
     .pipe(postcss(processors))
     .pipe(minifyCSS())
-    .pipe(gulp.dest('./static/css/'));
+    .pipe(gulp.dest('./static/assets/css/'));
 });
 
 // Image minification task
@@ -55,7 +55,7 @@ gulp.task('minimage', () =>
     .src(paths.img)
     .pipe(imagemin({ progressive: true, pngquant: true, optimizationLevel: 3 }))
     .pipe(rename({ dirname: '' }))
-    .pipe(gulp.dest('./static/img'))
+    .pipe(gulp.dest('./static/assets/img'))
 );
 
 // JS uglify
@@ -64,7 +64,7 @@ gulp.task('js', () =>
     .src(paths.js)
 		.pipe(concat('app.js'))
 		.pipe(uglify())
-		.pipe(gulp.dest('./static/js'))
+		.pipe(gulp.dest('./static/assets/js'))
 );
 
 // Clean task
