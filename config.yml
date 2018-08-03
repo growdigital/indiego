@@ -1,6 +1,6 @@
 baseURL: https://starter.indiego.org.uk/
 languageCode: en-GB
-title: Indiego
+title: Indiego Starter
 theme: starter
 sectionPagesMenu: secondary
 pluralizeListTitles: false
