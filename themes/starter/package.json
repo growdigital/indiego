@@ -1,10 +1,10 @@
 {
-  "name": "indiegomin",
-  "description": "Socially aware minimal Hugo blog template for Indiego starter kit",
+  "name": "starter",
+  "description": "Minimal Hugo blog theme for Indiego starter kit",
   "author": "Jake Rayson <hello@growdigital.org>",
   "license": "(MIT OR GPL-3.0)",
   "private": false,
-  "version": "0.1.5",
+  "version": "0.1.6",
   "homepage": "https://www.indiego.org.uk/",
   "repository": "https://github.com/growdigital/indiego",
   "bugs": {
