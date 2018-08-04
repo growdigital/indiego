@@ -1,5 +1,4 @@
-# indiego
+# starter
 
-Bare minimum theme for Indiego
+Absolute bare minimum Modular CSS theme for Indiego.
 
-![Indiego logo](static/img/logo.svg)
