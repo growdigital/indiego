@@ -1,7 +1,7 @@
 {{ define "main" }}
   <main>
     <article class="h-entry" itemscope itemtype="https://schema.org/Article">
-      {{ partial "micro-schema.html" . }}
+      {{ partial "microformat-schema.html" . }}
       <h1 class="p-name">{{ .Title }}</h1>
       <time class="dt-published" pubdate itemprop="datePublished" content="{{ .Date.Format "2006-01-02" }}">
         {{ .Date.Format "Monday" }}, {{ .Date.Format "2" | humanize}} {{ .Date.Format "January 2006" }}
