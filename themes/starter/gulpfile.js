@@ -75,7 +75,7 @@ gulp.task('clean', function(cb) {
 // Watch task
 gulp.task('watch', function() {
 	gulp.watch(paths.css, ['css']);
-	gulp.watch(paths.js, ['uglification']);
+	gulp.watch(paths.js, ['js']);
 	gulp.watch(paths.img, ['minimage']);
 });
 
