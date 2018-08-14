@@ -12,26 +12,23 @@ const	uglify = require('gulp-uglify');
 // Define paths. The order is important.
 const	paths = {
 	css: [
-    './src/assets/css/settings/variables.css',
     './node_modules/normalize-css/normalize.css',
-    './src/assets/css/settings/base.css',
-    './src/assets/css/settings/typography.css',
-    './src/assets/css/settings/responsive.css',
-    './src/modules/objects/**/*.css',
-    './src/modules/components/**/**/*.css',
-    './src/modules/utilities/**/**/*.css',
-    './src/assets/css/shame.css'
+    './src/01-variables.css',
+    './src/02-base/css/*.css',
+    './src/03-objects/**/**/*.css',
+    './src/04-components/**/**/*.css',
+    './src/05-utilities/**/**/*.css',
+    './src/06-shame.css'
 	],
 	js: [
-    './src/assets/js/*.js',
-		'./src/modules/**/**/*.js',
-		'./src/modules/**/**/**/*.js'
+    './src/02-base/js/*.js',
+    './src/03-objects/**/**/*.js',
+    './src/04-components/**/**/*.js',
+    './src/05-utilities/**/**/*.js',
 	],
 	img: [
-		'./src/modules/**/**/*.+(png|jpg|svg|ico)',
-		'./src/modules/**/**/**/*.+(png|jpg|svg|ico)',
-		'./src/assets/img/**/*.+(png|jpg|svg|ico)',
-		'./src/assets/img/*.+(png|jpg|svg|ico)'
+		'./src/**/**/*.+(png|jpg|svg|ico)',
+		'./src/**/**/**/*.+(png|jpg|svg|ico)'
 	]
 };
 

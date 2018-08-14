@@ -1,16 +1,15 @@
 /* ==========================================================================
-   Base CSS
+   Base & type CSS
    ========================================================================== */
 
 /**
  * Derived from suit-base CSS
  * https://github.com/suitcss/base
+ * Type CSS at end
  */
 
 /* Apply a natural box layout model to all elements */
-*,
-*:before,
-*:after {
+*, *:before, *:after {
   box-sizing: border-box;
 }
 
@@ -29,9 +28,7 @@ a {
   text-decoration: underline;
 }
 
-a:hover,
-a:focus,
-a:active {
+a:hover, a:focus, a:active {
   color: var(--indigo);
   text-decoration: underline;
 }
@@ -53,18 +50,7 @@ img {
  * Removes the default spacing and border for appropriate elements.
  */
 
-body,
-blockquote,
-dl,
-dd,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-pre {
+body, blockquote, dl, dd, h1, h2, h3, h4, h5, h6, p, pre {
   margin: 0;
 }
 
@@ -79,8 +65,7 @@ iframe {
 }
 
 /* Nicely margined lists */
-ol,
-ul {
+ol, ul {
   margin: 0.5em 0 1em 1.5em;
   padding: 0;
 }
@@ -101,13 +86,10 @@ table {
 }
 
 /**
- * Responsive. Images.
+ * Responsive images.
  */
 
-img,
-embed,
-object,
-video {
+img, embed, object, video {
   display: block;
   height: auto;
   max-width: 100%;

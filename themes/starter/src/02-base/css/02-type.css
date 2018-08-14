@@ -1,13 +1,9 @@
 /* ==========================================================================
-   Typography CSS
+   Type CSS
    ========================================================================== */
 
 /* Headings */
-h1,
-h2,
-h3,
-h4,
-h5 {
+h1, h2, h3, h4, h5 {
   color: var(--gray);
   font-weight: 500;
 }
@@ -46,8 +42,7 @@ blockquote {
 }
 
 /* Code */
-code,
-pre {
+code, pre {
   font-family: 'Menlo', 'Andale Mono', 'Monaco', 'Consolas', 'Lucida Console',
     monospace;
 }
