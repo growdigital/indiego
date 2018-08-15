@@ -1,7 +1,7 @@
 baseURL: https://starter.indiego.org.uk/
 languageCode: en-GB
 title: Indiego Starter
-theme: starter
+theme: webfonts-theme
 sectionPagesMenu: secondary
 pluralizeListTitles: false
 copyright: This work is dual-licensed under MIT & GPL v3
