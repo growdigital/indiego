@@ -1,0 +1,16 @@
+/* ==========================================================================
+   Utility - clearfix
+   ========================================================================== */
+
+/**
+ * Make an element expand to contain floated children.
+ * Uses pseudo-elements (micro clearfix).
+ * Trumping layout utility derived from SUIT CSS layout utilities:
+ * https://github.com/suitcss/utils-layout
+ */
+
+.u-cf:after {
+    content: "";
+    display: table;
+    clear: both;
+}

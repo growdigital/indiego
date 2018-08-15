@@ -1,0 +1,19 @@
+/* ==========================================================================
+   Utility - hidden visually
+   ========================================================================== */
+
+/**
+ * Completely remove from the flow but leave available to screen readers.
+ * Trumping display utility derived from SUIT CSS display utilities:
+ * https://github.com/suitcss/utils-display
+ */
+
+.u-hiddenvisually {
+  border: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+}

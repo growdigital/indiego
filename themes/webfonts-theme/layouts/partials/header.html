@@ -1,0 +1,21 @@
+<header class="header" role="banner">
+  <div class="h-card">
+    <h2>
+      <a class="p-org u-url" rel="me" href="/" title="Link to home page">{{ .Site.Title }}</a>
+    </h2>
+    <a href="/" title="Link to home page">
+      <img class="u-photo" src="/assets/img/logo.png" alt="{{ .Site.Title }} logo">
+    </a>
+    <h3 class="p-note">{{ .Site.Params.Description }}</h3>
+  </div>
+  <nav class="nav">
+    {{ $currentPage := . }}
+    <ol class="o-list-bare">
+      {{ range .Site.Menus.main }}
+      <li>
+        <a class="{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}is-active{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
+      </li>
+      {{ end }}
+    </ol>
+  </nav>
+</header>

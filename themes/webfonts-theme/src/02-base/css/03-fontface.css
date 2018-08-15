@@ -1,0 +1,64 @@
+/**
+ * @font-face
+ * For reference see the most awesome @zachleat
+ * https://www.zachleat.com/web/comprehensive-webfonts/#fout-class
+ * https://www.zachleat.com/web-fonts/demos/fout-with-class-polyfill.html
+ */
+
+@font-face {
+  font-family: Lato;
+  src: url('/assets/fonts/lato-regular.woff2') format('woff2'),
+       url('/assets/fonts/lato-regular.woff') format('woff');
+}
+@font-face {
+  font-family: LatoBold;
+  src: url('/assets/fonts/lato-bold.woff2') format('woff2'),
+       url('/assets/fonts/lato-bold.woff') format('woff');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: LatoItalic;
+  src: url('/assets/fonts/lato-italic.woff2') format('woff2'),
+       url('/assets/fonts/lato-italic.woff') format('woff');
+  font-style: italic;
+}
+
+@font-face {
+  font-family: LatoBoldItalic;
+  src: url('/assets/fonts/lato-bolditalic.woff2') format('woff2'),
+       url('/assets/fonts/lato-bolditalic.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+}
+
+/**
+ * Web fonts loaded with CSS class selector 'fonts-loaded,
+ * added by fontfaceobserver, see fontfaceobserver.js
+ */
+
+body {
+  font-family: sans-serif;
+}
+
+.fonts-loaded body {
+  font-family: Lato, sans-serif;
+}
+
+.fonts-loaded h1,
+.fonts-loaded strong {
+  font-family: LatoBold, sans-serif;
+  font-weight: 700;
+}
+
+.fonts-loaded em {
+  font-family: LatoItalic, sans-serif;
+  font-style: italic;
+}
+
+.fonts-loaded strong em,
+.fonts-loaded em strong {
+  font-family: LatoBoldItalic, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}

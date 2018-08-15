@@ -1,0 +1,21 @@
+<!-- Schema.org markup for Google+ -->
+<meta itemprop="headline" content="{{ .Title }}">
+{{ if eq .Type "status" }}
+<meta itemprop="description" content="{{ .Summary }}">
+{{ else }}
+<meta itemprop="description" content="{{ .Description }}">
+{{ end }}
+{{ if .Params.image }}
+<meta itemprop="image" content="{{ .Params.image }}">
+{{ else }}
+<meta itemprop="image" content="{{ .Site.BaseURL }}{{ .Site.Params.publisherLogo }}">
+{{ end }}
+<meta itemprop="author" content="{{ .Site.Author.name }}">
+<div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+  <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+    <meta itemprop="url" content="{{ .Site.BaseURL }}{{ .Site.Params.publisherLogo }}">
+    <meta itemprop="width" content="{{ .Site.Params.publisherLogoWidth }}">
+    <meta itemprop="height" content="{{ .Site.Params.publisherLogoHeight }}">
+  </div>
+  <meta itemprop="name" content="{{ .Site.Params.publisher }}">
+</div>
