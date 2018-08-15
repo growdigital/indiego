@@ -4,7 +4,7 @@ Socially aware Hugo blog starter kit, with modular CSS gulp.js workflow
 
 ![Indiego logo](themes/starter/static/assets/img/logo.png)
 
-### Version: 0.1.7
+### Version: 0.1.8
 
 ## Requires
 
