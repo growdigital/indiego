@@ -1,0 +1,108 @@
+/**
+ * TEMPORARY STYLING FOR indiego.org.uk
+ * I will get round to creating proper styling soon 🙂
+ */
+
+.wrapper {
+  padding: 1.5rem;
+}
+
+.wrapper > * {
+  margin: 0 auto;
+  max-width: 44rem;
+}
+
+.header {
+  text-align: center;
+}
+
+.header {
+  padding-top: 1rem;
+}
+
+.header img {
+  display: inline-block;
+  margin: 1rem 0;
+  width: 6rem;
+}
+
+.header img:hover {
+  opacity: 0.7;
+}
+
+/* Header and footer visited links as link color */
+.header a:visited,
+.footer a:visited {
+  color: var(--blue);
+}
+
+/* Header and footer links still have hover color */
+.header a:hover,
+.header a:focus,
+.header a:active,
+.footer a:hover,
+.footer a:focus,
+.footer a:active {
+  color: var(--blueviolet);
+}
+
+.footer small {
+  text-align: center;
+}
+
+.credit {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+/* Nav & social margins */
+.nav,
+.social {
+  margin: 1em 0;
+}
+
+.nav ol > *,
+.social ol > * {
+  display: inline-block;
+}
+
+/* Nav active item */
+.nav .is-active {
+  color: var(--dark) !important;
+}
+
+/* Pagination, built-in Hugo template class */
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.pagination > * {
+  margin: 0 1em;
+  text-align: center;
+  width: 2em;
+}
+
+.pagination .active {
+  outline: 1px solid var(--dark);
+}
+
+hr {
+  border-top: 1px solid var(--light);
+}
+
+.meta dt {
+  float: left;
+width: 8em;
+font-weight: bold;
+}
+
+h1, h2, h3, h4, h5 {
+  color: var(--indigo);
+}
+
+figure img {
+  border: 1px solid #ccc;
+}
