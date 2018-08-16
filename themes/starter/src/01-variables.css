@@ -6,24 +6,9 @@
   /* Colors
      ======================================================================== */
 
-  --dark: #383838; /* 01-base.css */
-  --gray: #808080; /* 02-type.css */
-  --light: #eee; /* 02-type.css */
-  --lightest: #f7f7f7; /* 01-base.css */
-  --blue: #3131f0; /* 01-base.css */
-  --purple: purple; /* 01-base.css */
-  --indigo: #4b0082; /* 01-base.css */
+  --indigo: #4b0082; /* not used, just an example */
 
-  /**
-   * Files where color variables are found:
-   *
-   *  01-base.css:
-   *  --blue, --dark, --indigo, --lightest, --purple
-   *  02-type.css:
-   *  --gray, --light
-   */
-
-   /* Base variables, adapated from SUIT CSS
+  /* Base variables, adapated from SUIT CSS
      ======================================================================== */
 
   --base_font: sans-serif;
