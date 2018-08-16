@@ -6,23 +6,20 @@
   /* Colors
      ======================================================================== */
 
-  --dark: #383838; /* base.css, shame.css */
-  --gray: #808080; /* typography.css */
-  --light: #eee; /* typography.css, shame.css */
-  --lightest: #f7f7f7; /* base.css */
-  --blue: #3131f0; /* base.css, shame.css */
-  --blueviolet: blueviolet; /* shame.css */
-  --purple: purple; /* base.css */
-  --indigo: #4b0082; /* base.css, shame.css */
+  --dark: #383838; /* 01-base.css */
+  --gray: #808080; /* 02-type.css */
+  --light: #eee; /* 02-type.css */
+  --lightest: #f7f7f7; /* 01-base.css */
+  --blue: #3131f0; /* 01-base.css */
+  --purple: purple; /* 01-base.css */
+  --indigo: #4b0082; /* 01-base.css */
 
   /**
    * Files where color variables are found:
    *
-   *  base.css:
+   *  01-base.css:
    *  --blue, --dark, --indigo, --lightest, --purple
-   *  shame.css:
-   *  --blue, --blueviolet, --dark, --indigo, --light
-   *  typography.css:
+   *  02-type.css:
    *  --gray, --light
    */
 
