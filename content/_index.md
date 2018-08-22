@@ -19,6 +19,6 @@ We want Indiego to simplify the [Indieweb](https://indieweb.org/), so that conte
 
 ## Getting started
 
-To get started, deploy the absolutely minimal [Indiego starter kit](https://starter.indiego.org.uk/) by clicking this button here: 
+To get started, deploy the minimal [Indiego starter kit](https://starter.indiego.org.uk/) by clicking this button here: 
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/growdigital/indiego)
