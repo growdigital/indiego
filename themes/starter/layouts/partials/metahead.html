@@ -1,5 +1,6 @@
 <head>
   <meta charset="UTF-8">
+  {{- partial "pwa-register-serviceworker.html" . -}}
   <title>
     {{ .Site.Title }}:&nbsp;
     {{- if eq .Type "status" -}}
@@ -11,7 +12,7 @@
   <meta name="description" content="{{ .Description }}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
   <link rel="stylesheet" href="/assets/app.css">
-  {{- partial "favicon.html" . -}}
+  {{- partial "pwa.html" . -}}
   {{- partial "microformat-twitter.html" . -}}
   {{- partial "microformat-og.html" . -}}
 </head>

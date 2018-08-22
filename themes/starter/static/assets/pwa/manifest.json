@@ -1,16 +1,25 @@
 {
+  "dir": "ltr",
+  "lang": "en-GB",
   "name": "Indiego Hugo starter kit",
   "short_name": "Indiego",
-  "description": "An #IndieWeb starter kit for frontend devs for the Hugo CMS",
-  "lang": "en-GB",
+  "description": "An IndieWeb starter kit for the Hugo CMS",
   "start_url": "/",
   "display": "browser",
   "icons": [
     {
-      "src": "/assets/favicon/android-chrome-192x192.png",
-      "sizes": "192",
+      "src": "/assets/pwa/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/pwa/android-chrome-512x512.png",
+      "sizes": "512x512",
       "type": "image/png"
     }
   ],
-  "background_color": "#fff"
+  "theme_color": "#ffffff",
+  "background_color": "#fff",
+  "related_applications": "",
+  "prefer_related_applications": "false"
 }
