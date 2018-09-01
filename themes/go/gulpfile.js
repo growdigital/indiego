@@ -87,8 +87,8 @@ gulp.task('browser-sync', function () {
 
 // Clean task, delete generated files
 gulp.task('clean', function(cb) {
-  del(['static/**/*', '!static/', '!static/offline.html', '!static/serviceworker.js' ], cb);
-  // Don't delete offline.html & serviceworker.js, both required for PWA
+  del(['static/**/*', '!static/', '!static/offline.html', '!static/serviceworker.js', '!static/manifest.json' ], cb);
+  // Don't delete offline.html, serviceworker.js, manifeston.json as required for PWA
 });
 
 // Default task

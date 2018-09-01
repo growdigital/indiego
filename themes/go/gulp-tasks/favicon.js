@@ -6,15 +6,15 @@ const realFavicon = require ('gulp-real-favicon');
 const fs = require('fs');
 
 // File where the favicon markups are stored
-const FAVICON_DATA_FILE = 'static/assets/pwa/faviconData.json';
+const FAVICON_DATA_FILE = './static/assets/pwa/faviconData.json';
 
 // Generate icons. Takes a few seconds. Run at least once,
 // then whenever RealFaviconGenerator package updates its
 // package (see the check-for-favicon-update task below).
 gulp.task('favicon', function(done) {
 	realFavicon.generateFavicon({
-		masterPicture: 'static/assets/img/favicon.svg',
-		dest: 'static/assets/pwa/',
+		masterPicture: './static/assets/img/favicon.svg',
+		dest: './static/assets/pwa/',
 		iconsPath: '/assets/pwa/',
 		design: {
 			ios: {
