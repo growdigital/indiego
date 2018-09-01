@@ -15,7 +15,7 @@ Indiego is a **starter kit** for the [Hugo](https://gohugo.io/) <abbr title="Con
 1. [Socially-aware](/social/) blog & status posts that can be previewed on social networks.
 2. [Modular CSS](/modular/) frontend workflow, makes design & developing a theme much easier.
 
-We want Indiego to simplify the [Indieweb](https://indieweb.org/), so that content creators can focus on [Publish (on your) Own Site, Syndicate Elsewhere](https://indieweb.org/POSSE). This means **easily** syndicating your web site content to your social media networks.
+Simplify the [Indieweb](https://indieweb.org/), by focussing on [Publish (on your) Own Site, Syndicate Elsewhere](https://indieweb.org/POSSE). All posts, blog & status, are marked up with microformats: automatically share posts via your RSS feed, every shared link has a preview.
 
 ## Getting started
 

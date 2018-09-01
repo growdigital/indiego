@@ -4,7 +4,6 @@
 
 /* Headings */
 h1, h2, h3, h4, h5 {
-  color: var(--gray);
   font-weight: 500;
 }
 
@@ -20,12 +19,10 @@ p {
 pre {
   margin: 0.5em 0;
   padding: 1em;
-  background-color: var(--light);
   border-radius: 0.3125em;
 }
 
 code {
-  background-color: var(--light);
   border-radius: 0.0625em;
   padding: 0 0.2em;
 }

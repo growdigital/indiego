@@ -15,8 +15,8 @@
 
 /* Apply variables */
 html {
-  background-color: var(--lightest);
-  color: var(--dark);
+  background-color: white;
+  color: black;
   font-family: var(--base_font);
   font-size: var(--base_fontsize);
   line-height: var(--base_lineheight);
@@ -24,17 +24,17 @@ html {
 
 /* Links */
 a {
-  color: var(--blue);
+  color: blue;
   text-decoration: underline;
 }
 
 a:hover, a:focus, a:active {
-  color: var(--indigo);
+  color: blue;
   text-decoration: underline;
 }
 
 a:visited {
-  color: var(--purple);
+  color: purple;
 }
 
 *:focus {

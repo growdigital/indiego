@@ -15,6 +15,8 @@ draft: false
 
 ## Planned feature branches
 
-* Netlify CMS
+* [Netlify CMS](https://www.netlifycms.org/)
 * CSS grid
 * SVG icons
+* [Staticman](https://staticman.net/) 
+* [Webmention](https://indieweb.org/Webmention)

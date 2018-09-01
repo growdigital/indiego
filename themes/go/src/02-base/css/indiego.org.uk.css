@@ -3,6 +3,10 @@
  * I will get round to creating proper styling soon 🙂
  */
 
+body {
+  color: #333;
+}
+
 .wrapper {
   padding: 1.5rem;
 }
