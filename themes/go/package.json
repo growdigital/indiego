@@ -1,10 +1,10 @@
 {
-  "name": "starter",
+  "name": "go",
   "description": "Minimal Hugo blog theme for Indiego starter kit",
   "author": "Jake Rayson <hello@growdigital.org>",
   "license": "(MIT OR GPL-3.0)",
   "private": false,
-  "version": "0.1.8",
+  "version": "0.1.9",
   "homepage": "https://www.indiego.org.uk/",
   "repository": "https://github.com/growdigital/indiego",
   "bugs": {
