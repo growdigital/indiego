@@ -8,6 +8,8 @@ const	imagemin = require('gulp-imagemin');
 const	postcss = require('gulp-postcss');
 const	rename = require('gulp-rename');
 const	uglify = require('gulp-uglify');
+const requireDir = require('require-dir');
+requireDir('./gulp-tasks');
 
 // Define paths. The order is important.
 const	paths = {
@@ -85,7 +87,8 @@ gulp.task('browser-sync', function () {
 
 // Clean task, delete generated files
 gulp.task('clean', function(cb) {
-	del(['./static/**/*'], cb);
+  del(['static/**/*', '!static/', '!static/offline.html', '!static/serviceworker.js' ], cb);
+  // Don't delete offline.html & serviceworker.js, both required for PWA
 });
 
 // Default task
@@ -96,3 +99,8 @@ gulp.task('default', [
   'js',
   'watch'
 ]);
+
+// Imported Favicon task
+// ./gulp-tasks/favicon.js
+// $ gulp favicon // generate favicons
+// $ gulp favicon-update // check for updates
