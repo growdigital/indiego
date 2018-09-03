@@ -13,10 +13,14 @@ draft: false
 * [Webfonts](https://webfonts.indiego.org.uk/) 
 * [Progressive Web App](https://pwa.indiego.org.uk/) 
 
+# Feature branches in progress
+
+* Comments by [Staticman](https://staticman.net/) 
+
 ## Planned feature branches
 
 * [Netlify CMS](https://www.netlifycms.org/)
 * CSS grid
 * SVG icons
-* [Staticman](https://staticman.net/) 
 * [Webmention](https://indieweb.org/Webmention)
+* Shop with [Snipcart](https://snipcart.com/blog/hugo-tutorial-static-site-ecommerce)
