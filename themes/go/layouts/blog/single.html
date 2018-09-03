@@ -24,6 +24,9 @@
       <div class="e-content" itemprop="mainEntityOfPage">
         {{ .Content }}
       </div>
+      <div class="comments">
+        {{ partial "comments.html" . }}
+      </div>
       <dl class="meta">
         <dt>Author:</dt>
         <dd rel="author" class="p-author h-card">{{ .Site.Author.name }}</dd>
