@@ -4,6 +4,9 @@ Socially aware Hugo blog starter kit, with modular CSS gulp.js workflow
 
 ![Indiego logo](themes/go/static/assets/img/logo.png)
 
+“I just didn't add anything to make it slow.”  
+Taking inspiration from [Phil Hawksworth](https://mobile.twitter.com/philhawksworth/status/1038440732741259265)
+
 ### Version: 0.1.8
 
 ## Requires
