@@ -19,6 +19,7 @@ draft: false
 
 ## Planned feature branches
 
+* Simple analytics
 * [Netlify CMS](https://www.netlifycms.org/)
 * CSS grid
 * SVG icons
