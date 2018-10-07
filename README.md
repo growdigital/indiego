@@ -2,7 +2,10 @@
 
 Socially aware Hugo blog starter kit, with modular CSS gulp.js workflow
 
-![Indiego logo](themes/starter/static/assets/img/logo.png)
+![Indiego logo](themes/go/static/assets/img/logo.png)
+
+“I just didn't add anything to make it slow.”  
+Taking inspiration from [Phil Hawksworth](https://mobile.twitter.com/philhawksworth/status/1038440732741259265)
 
 ### Version: 0.1.8
 
@@ -20,7 +23,7 @@ Socially aware Hugo blog starter kit, with modular CSS gulp.js workflow
 2. In a terminal, `git clone` your new repository to your local machine
 3. Add your details to [`config.yml`](https://github.com/growdigital/indiego/blob/master/config.yml)
 4. Change directory, run `hugo serve`
-5. In new terminal, cd `themes/starter/`
+5. In new terminal, cd `themes/go/`
 6. Run `npm install` 
 7. Run `gulp`. A [Browserync](https://www.browsersync.io/) window should open.
 8. Add content. Design your theme. The world is your oyster 🐚
@@ -39,17 +42,17 @@ Full documentation is on the [Hugo website](https://gohugo.io/content-management
 
 ## To edit the theme
 
-* The Indiego theme is called **starter**. As you can see, it is incredibly minimal.
-* The organisation is based on [ITCSS](https://www.indiego.org.uk/modular/#2-css-organisation) (Inverted Triangle CSS). All CSS, JavaScript and images are organised by modules in the `starter/src` directory, from general to specific:
+* The Indiego theme is called **go**. As you can see, it is incredibly minimal.
+* The organisation is based on [ITCSS](https://www.indiego.org.uk/modular/#2-css-organisation) (Inverted Triangle CSS). All CSS, JavaScript and images are organised by modules in the `go/src` directory, from general to specific:
   1. Variables
   2. Base CSS
   3. Objects (site wide patterns)
   4. Components
   5. Utilities (trumping !important)
   6. Shameful
-* A simple [Gulp](https://gulpjs.com/) taskrunner concatenates the individual modules into `app.css`, `app.js` and `assets` in the `starter/static` directory. These are then copied to `public` when you run `hugo serve`
-* Set your own base settings in `starter/src/assets/css/settings` 
-* Create your own modules in `starter/src/modules`
+* A simple [Gulp](https://gulpjs.com/) taskrunner concatenates the individual modules into `app.css`, `app.js` and `assets` in the `go/static` directory. These are then copied to `public` when you run `hugo serve`
+* Set your own base settings in `go/src/assets/css/settings` 
+* Create your own modules in `go/src/modules`
 * Keep `gulp` running in one terminal and `hugo serve` in another to preview changes automatically.
 
 ## To publish changes

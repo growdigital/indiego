@@ -22,6 +22,12 @@ html {
   line-height: var(--base_lineheight);
 }
 
+input, textarea {
+  font-family: var(--base_font);
+  font-size: var(--base_fontsize);
+  line-height: var(--base_lineheight);
+}
+
 /* Links */
 a {
   color: blue;
@@ -46,9 +52,7 @@ img {
   border: 0 solid transparent;
 }
 
-/**
- * Removes the default spacing and border for appropriate elements.
- */
+/* Removes the default spacing and border for appropriate elements */
 
 body, blockquote, dl, dd, h1, h2, h3, h4, h5, h6, p, pre {
   margin: 0;
@@ -66,7 +70,7 @@ iframe {
 
 /* Nicely margined lists */
 ol, ul {
-  margin: 0.5em 0 1em 1.5em;
+  margin: 0.5rem 0 1rem 1.5rem;
   padding: 0;
 }
 
@@ -85,9 +89,7 @@ table {
   outline: none !important;
 }
 
-/**
- * Responsive images.
- */
+/* Responsive images */
 
 img, embed, object, video {
   display: block;
@@ -95,9 +97,7 @@ img, embed, object, video {
   max-width: 100%;
 }
 
-/**
- * Figure
- */
+/* Figure */
 
 figure {
   margin: 0;
