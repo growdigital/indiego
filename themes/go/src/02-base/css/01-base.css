@@ -1,0 +1,110 @@
+/* ==========================================================================
+   Base & type CSS
+   ========================================================================== */
+
+/**
+ * Derived from suit-base CSS
+ * https://github.com/suitcss/base
+ * Type CSS at end
+ */
+
+/* Apply a natural box layout model to all elements */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/* Apply variables */
+html {
+  background-color: white;
+  color: black;
+  font-family: var(--base_font);
+  font-size: var(--base_fontsize);
+  line-height: var(--base_lineheight);
+}
+
+input, textarea {
+  font-family: var(--base_font);
+  font-size: var(--base_fontsize);
+  line-height: var(--base_lineheight);
+}
+
+/* Links */
+a {
+  color: blue;
+  text-decoration: underline;
+}
+
+a:hover, a:focus, a:active {
+  color: blue;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: purple;
+}
+
+*:focus {
+  outline: dotted 1px;
+}
+
+/* Prevents border on linked image in IE */
+img {
+  border: 0 solid transparent;
+}
+
+/* Removes the default spacing and border for appropriate elements */
+
+body, blockquote, dl, dd, h1, h2, h3, h4, h5, h6, p, pre {
+  margin: 0;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+iframe {
+  border: 0;
+}
+
+/* Nicely margined lists */
+ol, ul {
+  margin: 0.5rem 0 1rem 1.5rem;
+  padding: 0;
+}
+
+/* Collapsed tables for that modern look */
+table {
+  border-collapse: collapse;
+}
+
+/**
+ * Suppress the focus outline on elements that cannot be accessed via keyboard.
+ * This prevents an unwanted focus outline from appearing around elements that
+ * might still respond to pointer events.
+ */
+
+[tabindex='-1']:focus {
+  outline: none !important;
+}
+
+/* Responsive images */
+
+img, embed, object, video {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+/* Figure */
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  font-size: 0.9rem;
+  font-style: italic;
+  padding: 0.3rem 0.1rem 0.3rem 0.2rem;
+}

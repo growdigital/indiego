@@ -1,0 +1,35 @@
+{{ define "main" }}
+  <main>
+    <article class="h-entry" itemscope itemtype="https://schema.org/Article">
+      {{ partial "microformat-schema.html" . }}
+      <h1 class="p-name">
+        {{ .Date.Format "Monday" }}, {{ .Date.Format "2" | humanize}} {{ .Date.Format "January 2006 03:04pm" }}
+      </h1>
+      <div class="e-content" itemprop="mainEntityOfPage">
+        {{ .Content }}
+      </div>
+      {{ if .Params.image }}
+        <figure>
+          <img src="{{ .Params.image }}" alt="{{ .Params.imageAlt }}">
+          <figcaption>{{ .Params.imageCap }}</figcaption>
+        </figure>
+        {{ end }}
+      <dl class="meta">
+        <dt>Author:</dt>
+        <dd rel="author" class="p-author h-card">
+          {{ .Site.Author.name }}
+        </dd>
+        <dt>Date:</dt>
+        <dd>
+          <time class="dt-published" pubdate itemprop="datePublished" content="{{ .Date.Format "2006-01-02" }}">
+            {{ .Date.Format "Monday" }}, {{ .Date.Format "2" | humanize}} {{ .Date.Format "January 2006 03:04pm" }}
+          </time>
+        </dd>
+        <dt>Permalink URL:</dt>
+        <dd>
+          <a class="u-url" href="{{ .Permalink }}">{{ .Permalink }}</a>
+        </dd>
+      </dl>
+    </article>
+  </main>
+{{ end }}

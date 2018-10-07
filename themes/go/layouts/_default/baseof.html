@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+{{ partial "metahead.html" . }}
+<body>
+  <div class="wrapper">
+    {{ partial "header.html" . }}
+    {{ block "main" . }}
+    {{ end }}
+    {{ partial "aside.html" . }}
+    {{ partial "footer.html" . }}
+  </div>
+<script src="/assets/app.js"></script>
+</body>
+</html>

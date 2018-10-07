@@ -1,0 +1,41 @@
+<footer class="footer" id="footer" role="contentinfo">
+  <div class="social">
+    <h2>Social</h2>
+    <ol class="o-list-bare">
+      <li>
+        <a href="https://twitter.com/{{ .Site.Params.twitter }}" rel="me">Twitter</a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/{{ .Site.Params.facebook  }}" rel="me">Facebook</a>
+      </li>
+      <li>
+        <a href="https://plus.google.com/{{ .Site.Params.googleplus }}" rel="me">Google+</a>
+      </li>
+      <li>
+        <a href="{{ .Site.Params.baseURL }}/index.xml">RSS</a>
+      </li>
+    </ol>
+  </div>
+  <div class="contact">
+    <h2>Contact</h2>
+    <ol class="o-list-bare">
+      <li>Telephone: <a href="tel:{{ .Site.Params.tel }}" rel="me">{{ .Site.Params.tel }}</a></li>
+      <li>Email: <a href="mailto:{{ .Site.Params.email }}" rel="me">{{ .Site.Params.email }}</a></li>
+    </ol>
+  </div>
+  <div class="credit">
+    <p>
+      <small>Built by
+        <a href="https://www.growdigital.org/">Jake Rayson</a> with
+        <a href="https://gohugo.io/">Hugo</a>, deployed by
+        <a href="https://www.netlify.com/">Netlify</a>
+      </small>
+    </p>
+    <p>
+      <small>&copy; Jake Rayson 2017-18, license
+        <a href="https://choosealicense.com/licenses/mit/">MIT</a> &amp;
+        <a href="https://choosealicense.com/licenses/gpl-3.0/">GPL v3</a>
+      </small>
+    </p>
+  </div>
+</footer>

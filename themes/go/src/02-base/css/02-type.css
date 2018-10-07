@@ -1,0 +1,45 @@
+/* ==========================================================================
+   Type CSS
+   ========================================================================== */
+
+/* Headings */
+h1, h2, h3, h4, h5 {
+  font-weight: 500;
+}
+
+h1 {
+  line-height: 1.1;
+  margin-bottom: 0.3em;
+}
+
+p {
+  margin-bottom: 0.5em;
+}
+
+pre {
+  margin: 0.5em 0;
+  padding: 1em;
+  border-radius: 0.3125em;
+}
+
+code {
+  border-radius: 0.0625em;
+  padding: 0 0.2em;
+}
+
+blockquote {
+  padding: 0.2em 1em 0 1em;
+  font-size: larger;
+  font-style: italic;
+}
+
+/* Faux utility headings */
+.u-h1 {
+  font-size: 2em !important;
+}
+
+/* Code */
+code, pre {
+  font-family: 'Menlo', 'Andale Mono', 'Monaco', 'Consolas', 'Lucida Console',
+    monospace;
+}

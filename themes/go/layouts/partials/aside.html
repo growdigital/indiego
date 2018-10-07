@@ -1,0 +1,44 @@
+<aside role="complementary">
+  <section>
+    <h2><a href="/blog/">Blog posts</a></h2>
+    <ul>
+      {{ range first 4 (where .Site.RegularPages "Section" "blog") }}
+      <li>
+        <a href="{{ .Permalink }}">
+          {{ .Title }}
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+  <section>
+    <h2><a href="/status/">Status udpates</a></h2>
+    <ul>
+      {{ range first 4 (where .Site.RegularPages "Section" "status") }}
+      <li>
+        <a href="{{ .Permalink }}">
+          {{ substr (.Content | markdownify) 0 40 }}…
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+  <section>
+    <h2><abbr title="Rich Site Summary">RSS</abbr> feeds</h2>
+    <ul>
+      <li><a href="{{ .Permalink }}blog/index.xml" title="News feed for full blog posts, open in RSS news reader"><strong>Blog feed</strong></a>, for newsreaders</li>
+      <li><a href="{{ .Permalink }}index.xml" title="Feed for all posts, blog &amp; status"><strong>News feed</strong></a>, summary of all posts</li>
+    </ul>
+  </section>
+  <section>
+    <h2>Secondary navigation</h2>
+    <nav class="nav">
+      {{ $currentPage := . }}
+      <ul class="o-list-bare">
+      {{- range .Site.Menus.secondary -}}
+        <li><a class="{{ if or ($currentPage.IsMenuCurrent " secondary " .) ($currentPage.HasMenuCurrent "secondary" .) }}is-active{{ end }}" href="{{ .URL }}">{{ .Name }}</a></li>
+      {{ end }}
+      </ul>
+    </nav>
+  </section>
+</aside>
