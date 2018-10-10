@@ -1,8 +1,10 @@
 <header class="header" role="banner">
   <div class="h-card">
-    <h2>
-      <a class="p-org u-url" rel="me" href="/" title="Link to home page">{{ .Site.Title }}</a>
-    </h2>
+    {{- if .IsHome -}}
+      <h1><a class="p-org u-url" rel="me" href="/" title="Link to home page">{{ .Site.Title }}</a></h1>
+    {{- else -}}
+      <h2 class="u-h1"><a class="p-org u-url" rel="me" href="/" title="Link to home page">{{ .Site.Title }}</a></h2>
+    {{- end -}}
     <a href="/" title="Link to home page">
       <img class="u-photo" src="/assets/img/logo.png" alt="{{ .Site.Title }} logo">
     </a>
