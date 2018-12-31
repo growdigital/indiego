@@ -1,25 +1,25 @@
-baseURL: https://go.indiego.org.uk/
+baseURL: https://zor0ku.tk
 languageCode: en-GB
-title: Indiego Starter
+title: H3RTZ IPA's For iDevices
 theme: go
 pluralizeListTitles: false
-copyright: This work is dual-licensed under MIT & GPL v3
+copyright: None But Protected By PGP
 paginate: 2
 summaryLength: 13
 author:
-  name: Jake Rayson
-  email: hello@growdigital.org
+  name: Jacob Honea
+  email: jacobhonea833@gmail.com 
 taxonomies:
   tag: tags
 params:
-  description: Socially aware starter kit for Hugo
+  description: The Best IPA Store Quick And Easy
   publisher: Indiego
   publisherLogo: assets/img/logo.png
   publisherLogoWidth: 220
   publisherLogoHeight: 220
-  twitter: IndiegoHugo
-  facebook: IndiegoHugo
-  email: hello@indiego.org.uk
-  googleplus: 112354208488638707199
-  fbapp_id: 206433049934562
-  tel: "+447398474064"
+  twitter: None Yet
+  facebook: None Yet
+  email: jacobhonea833@gmail.com 
+  googleplus: None
+  fbapp_id: None
+  tel: "+1(714)-617-1937"
