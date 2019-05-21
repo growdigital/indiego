@@ -1,5 +1,7 @@
 # Indiego
 
+**Not under active development. I do want to ditch gulp & use Hugo Pipelines to simplify process. If someone else wants to have a go, please do!**
+
 Socially aware Hugo blog starter kit, with modular CSS gulp.js workflow
 
 ![Indiego logo](themes/go/static/assets/img/logo.png)
