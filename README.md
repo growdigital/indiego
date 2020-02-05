@@ -30,7 +30,7 @@ Taking inspiration from [Phil Hawksworth](https://mobile.twitter.com/philhawkswo
 7. Run `gulp`. A [Browserync](https://www.browsersync.io/) window should open.
 8. Add content. Design your theme. The world is your oyster 🐚
 
-Full Hugo documentation at [gohugo.io](https://gohugo.io/) and Indiego documenation at [www.indiego.org.uk](https://www.indiego.org.uk/)
+Full Hugo documentation at [gohugo.io](https://gohugo.io/) and Indiego documenation at [indiego.grwd.uk](https://indiego.grwd.uk/)
 
 ## To add content
 
