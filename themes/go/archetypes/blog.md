@@ -4,7 +4,7 @@ date: {{ .Date }}
 description: 
 tags: 
 - IndieGo
-image: 
+images: 
 imageAlt: 
 imageCap: 
 draft: false
